@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel ="stylesheet">
+
+    <title>Weather App</title>
+</head>
+<body >
+    <div class ='container'>
+        <div class ='header'>
+            <div class="icon-container">
+                <i style='font-size:36px' class='fas'>&#xf6c4;</i>
+            </div>
+        </div>
+    <div class ='content'>
+     <div class="general-information">
+         <div class="status">Enter A Location</div>
+         <div class="location" class="p">To Find The Weather</div>
+         <div class="date">Date</div>
+     </div>  
+     <div class="details-section">
+         <div class="details">
+             <div class="title">Weather</div>
+             <div class="value" data-weather>TBD</div>
+         </div>
+         <div class="details bordered">
+             <div  class="title">Temperature</div>
+             <div class="value" data-temperature>TBD</div>
+         </div>
+         <div class="details">
+             <div class="title">Humidity</div>
+             <div class="value" data-humidity>TBD</div>
+         </div>
+     </div> 
+     <div class="city-search-container">
+         <input type="text" class="search" placeholder="Enter Location">
+         <button class = 'btn'>Search</button>
+     </div>
+     </div>
+    </div>    
+    </div>
+  <script src="script.js"></script>  
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</body>
+</html> 
