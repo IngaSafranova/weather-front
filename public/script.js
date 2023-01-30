@@ -60,7 +60,7 @@ enter.addEventListener('click',(event)=>{
    document.querySelector('.search').value ='';
 
 
-fetch ('https://weather-3gju.onrender.com',{
+fetch ('https://weather-3gju.onrender.com' || 'http:localhost:9000',{
     method: 'POST',
     headers:{
         'Content-Type': 'application/json',
